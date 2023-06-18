@@ -42,7 +42,13 @@ font-family: 'Roboto', sans-serif; */
 
 
 /* Global Classes */ 
-
+body{
+    background-image: url(../Img/body-bg.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#52adf713;
+    
+}
 .title-text{
     font: normal bold 50px/ 72px var(--roboto);
 }
@@ -367,7 +373,7 @@ button:hover
     padding: .75 rem;
     transition: transform .4s ease;
     box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 /30%);
-    background-color:  rgba(118, 85, 225, 0.086);
+    background-color:  rgba(145, 116, 240, 0.086);
 
 
 }
@@ -494,9 +500,9 @@ button:hover
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(/Img/footer-bg.png) no-repeat ;
+    background: url(../Img/footer-bg.png) no-repeat ;
     width: 100%;
-    background-color: var(--bg-color);
+    background-color:#abd4f513;
 }
  .footer-area .lastimg{ 
     width: 10rem;
