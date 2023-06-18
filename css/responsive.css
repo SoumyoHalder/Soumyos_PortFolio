@@ -188,7 +188,6 @@ font: normal 500 10px/ 20px var(--roboto);
             .header_area .main-menu .navbar,
             .header_area .main-menu .navbar .navbar-brand,
             .site-main .about-area,
-            .site-main .skills-area .skills-title,
             .site-main .skills-area,
             .site-main .project-area  
             .site-main .project-area .button-group,
@@ -212,7 +211,8 @@ font: normal 500 10px/ 20px var(--roboto);
             }
             .site-main .site-banner .banner-image > img {
                 padding: 0px;
-                width: 60%;
+                width: 64%;
+                margin-right: 7rem;
             }
             .site-main .site-banner .banner-image{
                 display: flex;
@@ -245,6 +245,7 @@ font: normal 500 10px/ 20px var(--roboto);
                 margin-bottom: 0;
             }
 
+            /* about */
         .site-main .about-area .about-image{
             padding: 60px 60px 0px 60px;
             width: 100%;
@@ -255,7 +256,7 @@ font: normal 500 10px/ 20px var(--roboto);
         }
 
         .site-main .about-area .about-title .paragraph > p{
-            font-size: 13px;
+            font-size: 15px;
             font-weight: 500;
             margin-bottom: 0;
             padding: 0;
@@ -267,7 +268,10 @@ font: normal 500 10px/ 20px var(--roboto);
             width: 25px;
             height: auto;
         }
-
+/* Skills */
+.site-main .skills-area .skills-title{
+    padding-top: 5rem;
+}
 .site-main .skills-area .skills-title h1{
     font-size: 30px;
     line-height: 1.5rem;
@@ -322,7 +326,9 @@ font: normal 500 10px/ 20px var(--roboto);
 .card{
     width: 150px;
 }
-
+.front-face{
+    width: 100%;
+}
 .front-face img{
     width: 100%;
     border-radius: 10px;
