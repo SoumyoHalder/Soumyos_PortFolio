@@ -1,0 +1,31 @@
+
+/* CSS Variables */ 
+
+:root{
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --bg-color: #4c41e600;
+    --title-color: #141313;
+    --text-color: #777777;  
+    --border-color: #201f1f17;  
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --gradient: linear-gradient(to right,#4458dc 0%,#854fee 100% ),radial-gradient(circle at top left,#4458dc,#854fee);
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(2, 0, 9, 0.205);
+   
+
+    /* font family variables. */ 
+    --primary-text:#4458dc ;
+    --secondary-text:#854fee;
+    --text-white:#fff;
+    --text-light:#faf8ff;
+    --text-black:#000;
+    --text-gray:#eee;
+
+    /* Font Family */
+    --poppins:'Poppins';
+    --roboto: 'Roboto';
+    --handlee: 'Handlee'
+
+} 
+

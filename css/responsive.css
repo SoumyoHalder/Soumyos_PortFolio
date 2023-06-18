@@ -1,0 +1,366 @@
+/* if the viewport is <= 993 */
+
+@media only screen and (width <993px){
+
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .project-area  
+    .site-main .project-area .button-group,
+    footer .footer-area
+    {
+        padding: 1%;
+        margin: 0%;
+    }
+
+    .header_area .main-menu .nav-item .nav-link{
+        font-size: 12px;
+        font-weight: 450;
+        padding: 5px;
+    }
+    .header_area .nav-item .nav-link.active,
+    .header_area .nav-item .nav-link:hover,
+    .header_area .nav-item .nav-link:focus{
+        color:var(--text-white);
+        font-size: 13px
+        
+    }
+    .site-main .site-banner .banner-image > img {
+        padding: 0px;
+        width: 16rem;
+        margin-right: 10rem;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+    .site-main .site-banner .banner-image{
+        display: flex;
+        justify-content: center;
+        /* padding-top: 5rem; */
+
+    }
+
+    .site-main .site-banner .site-title h3 {
+        padding-top: 4rem;
+        font-size: 2.75rem;
+        line-height: 1.5rem;
+    }
+    .site-main .site-banner .site-title h1 {
+        font-size: 3.75rem;
+        line-height: 5rem;
+    }
+    .site-main .site-banner .site-title h4{
+        font-size: 1.4rem;
+        line-height: 3rem;
+
+    }
+    .main-btn{
+        font-size: 1rem;
+        line-height: 1.75rem;
+        padding: 0 0.5rem;
+    }
+    .primary-btn{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .site-main .about-area{
+        padding:3%;
+    }
+.site-main .about-area .about-image{
+    padding: 80px 50px 0px 50px;
+    width: 100%;
+}
+.site-main .about-area .about-title{
+    padding-top: 4.3rem;
+}
+.site-main .about-area .about-title h2 > span{
+    font: normal 500 25px/ 30px var(--poppins);
+    letter-spacing: 2px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.site-main .about-area .about-title .main-btn{
+    font-size: 12px;
+}
+.coding_profiles {
+    font-size: 15px;
+}
+.coding_profiles a img{
+    width: 25px;
+    height: auto;
+}
+
+/* skills area */
+.site-main .skills-area .skills-title h1{
+font-size: 3rem;
+line-height: 1.5rem;
+
+}
+.site-main .skills-area .skills-title p{
+font-size: 17px;  
+}
+.site-main .skills-area{
+    padding:5.25rem 2rem;
+}
+.site-main > .skills-area .skills{
+
+padding: 0;
+width: 12rem;
+margin: 1rem;
+}
+
+.card-text{
+font-size: 13px;
+}
+.site-main > .skills-area .skills ul li{
+font-size: 12px;
+}
+.skillimg > img{
+width: 8rem;
+padding: .5rem;
+}
+
+/* Project Area */
+
+.project-title .main-btn
+{
+font-size: 27px;
+}
+
+.site-main .project-area .button-group > button{
+font-size: 17px;   
+}
+
+.site-main .project-area .button-group button {
+padding: 2;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+font: normal 600 15px/0px var(--handlee);
+}
+.site-main .project-area .grid .our-project .title{
+justify-content: center;
+}
+
+.text-secondary
+{
+font-size: 12px;
+} 
+.card{
+width: 15rem;
+height: auto;
+}
+
+.front-face {
+width: 15rem;
+border-radius: 10px;
+}
+
+.our-project .title{
+text-align: center;
+padding: 0;
+}
+footer.footer-area .social a > i {
+font-size: 30px;
+padding: 1rem;
+}
+p.para {
+font: normal 500 10px/ 20px var(--roboto);
+}
+}
+
+/* if the viewport is equal to 430px or less than that */ 
+@media only screen and (width < 430px)
+        {
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            body{
+                width: 100%;
+                padding: 0rem;
+                margin: 0rem;
+            }
+
+            .header_area .main-menu .navbar,
+            .header_area .main-menu .navbar .navbar-brand,
+            .site-main .about-area,
+            .site-main .skills-area .skills-title,
+            .site-main .skills-area,
+            .site-main .project-area  
+            .site-main .project-area .button-group,
+            footer .footer-area
+            {
+                padding: 2%;
+                margin: 0%;
+            }
+    
+            .header_area .main-menu .nav-item .nav-link{
+                font-size: 12px;
+                font-weight: 450;
+                padding: 5px;
+            }
+            .header_area .nav-item .nav-link.active,
+            .header_area .nav-item .nav-link:hover,
+            .header_area .nav-item .nav-link:focus{
+                color:var(--text-white);
+                font-size: 13px
+                
+            }
+            .site-main .site-banner .banner-image > img {
+                padding: 0px;
+                width: 60%;
+            }
+            .site-main .site-banner .banner-image{
+                display: flex;
+                justify-content: center;
+                /* padding-top: 5rem; */
+
+            }
+
+            .site-main .site-banner .site-title h3 {
+                padding-top: 0;
+                font-size: 1.4rem;
+                line-height: 1.5rem;
+            }
+            .site-main .site-banner .site-title h1 {
+                font-size: 1.75rem;
+                line-height: 1.25rem;
+            }
+            .site-main .site-banner .site-title h4{
+                font-size: .9rem;
+                line-height: 1.5rem;
+
+            }
+            .main-btn{
+                font-size: .7rem;
+                line-height: 1.5rem;
+                padding: 0px 0.5rem;
+            }
+            .primary-btn{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+        .site-main .about-area .about-image{
+            padding: 60px 60px 0px 60px;
+            width: 100%;
+        }
+        .site-main .about-area .about-title h2 > span{
+            font: normal 500 16px/ 30px var(--poppins);
+            letter-spacing: 2px;
+        }
+
+        .site-main .about-area .about-title .paragraph > p{
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 0;
+            padding: 0;
+        }
+        .coding_profiles {
+            font-size: 12px;
+        }
+        .coding_profiles a img{
+            width: 25px;
+            height: auto;
+        }
+
+.site-main .skills-area .skills-title h1{
+    font-size: 30px;
+    line-height: 1.5rem;
+  
+}
+.site-main .skills-area .skills-title p{
+    font-size: 16px;  
+}
+
+.site-main > .skills-area .skills{
+
+    padding: 0;
+    width: 12rem;
+    margin: 1rem;
+}
+
+.card-text{
+    font-size: 10px;
+}
+.site-main > .skills-area .skills ul li{
+    font-size: 12px;
+}
+.skillimg > img{
+    width: 6rem;
+    padding: .5rem;
+}
+.project-title .main-btn
+{
+    font-size: 20px;
+}
+
+
+.site-main .project-area .button-group > button{
+    font-size: 10px;   
+}
+
+.site-main .project-area .button-group button {
+    padding: 2;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 600 15px/0px var(--handlee);
+}
+.site-main .project-area .grid .our-project .title{
+    justify-content: center;
+}
+
+.text-secondary
+{
+    font-size: 12px;
+} 
+.card{
+    width: 150px;
+}
+
+.front-face img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.our-project .title{
+    text-align: center;
+    padding: 0;
+}
+footer.footer-area .social a > i {
+    font-size: 20px;
+    padding: 1rem;
+}
+p.para {
+    font: normal 500 10px/ 20px var(--roboto);
+}
+}
+
+
+
+
+
+
+/* if the viewport is equal to 1910px or less than that  */
+/* @media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 2rem 5rem;
+    }
+
+    .container{
+        max-width: 70%;
+    }
+
+    .site-main .brand-area,
+    .site-main .skills-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+
+} */
