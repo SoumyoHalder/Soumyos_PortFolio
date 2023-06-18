@@ -225,7 +225,7 @@ button:hover
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background-image: url(/Img/home-banner.png);
+    background-image: url(../Img/home-banner.png);
             background-repeat: no-repeat;
             background-position: top center;
             background-size: cover;
