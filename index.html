@@ -80,7 +80,7 @@
 
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap justify-content-end">
-                                <button type="button" class="btn main-btn primary-btn mr-4 text-uppercase">Get Resume</button>
+                                <button onclick="window.open('Resume.pdf', '_blank')" type="button" class="btn main-btn primary-btn mr-4 text-uppercase">Get Resume</button>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                                 <a href="https://github.com/SoumyoHalder" target="_blank"><img  src="https://img.icons8.com/glyph-neue/64/000000/github.png" alt="github"/></a>
                             </div>
                         </div>
-                        <button type="button" class="btn main-btn primary-btn text-uppercase">Download Resume</button>
+                        <button onclick="downloadPDF()"  type="button" class="btn main-btn primary-btn text-uppercase">Download Resume</button>
                     </div>
                 </div>
             </div>
@@ -419,6 +419,17 @@
         $('.navbar-collapse').collapse('hide');
         });
         </script>
+        <!-- Download Resume -->
+        <script>
+            function downloadPDF() {
+              var link = document.createElement('a');
+              link.href = 'Resume.pdf';
+              link.download = 'Resume.pdf';
+              link.target = '_blank';
+              link.click();
+            }
+          </script>
+
 
 </body>
 </html>
