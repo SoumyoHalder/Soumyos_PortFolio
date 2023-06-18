@@ -272,7 +272,10 @@ button:hover
     line-height: 5rem;
 
 }
-
+.site-main .site-banner .banner-image{
+    display: flex;
+    justify-content: center;
+}
 .site-main .site-banner .banner-image > img{
     padding: 2rem 0 2rem;
     margin-left: 4rem;
@@ -311,6 +314,9 @@ button:hover
     font-weight: 600;
     padding: .4rem 0;
     
+}
+.coding_profiles a+a{
+    padding: 5px;
 }
 .coding_profiles a img{
     width: 54px;
