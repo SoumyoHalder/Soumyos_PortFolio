@@ -263,7 +263,7 @@ font: normal 500 10px/ 20px var(--roboto);
         }
         .coding_profiles {
             font-size: 12px;
-            font-weight: 600;
+            font-weight: 500;
         }
         .coding_profiles a img{
             width: 25px;
